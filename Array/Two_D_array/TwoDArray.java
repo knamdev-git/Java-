@@ -43,5 +43,6 @@ public class TwoDArray {
             System.out.println();
         }
         
+        scan.close();
     }    
 }
