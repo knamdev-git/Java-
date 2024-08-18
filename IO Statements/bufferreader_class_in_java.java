@@ -12,6 +12,7 @@ public class bufferreader_class_in_java {
     System.out.println("Character value : "+(char)ch);
   
     bf.readLine();
+    System.out.println("Enter String : ");
     String c = bf.readLine();
 
     System.out.println("String value : "+c);
@@ -28,7 +29,8 @@ public class bufferreader_class_in_java {
           a
          ASCII value :  97
          Character value : a 
-
+         Enter String : XYZ
+         String value : XYZ
 
 
     # Then we should have to use Typecasting for not changing the ASCII Value
