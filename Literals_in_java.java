@@ -2,13 +2,14 @@
 public class Main
 {
 	public static void main(String[] args) {
-	
+
+	//Lliterals are the fixed values that are directly represented in the source code. These values are assigned to variables or used directly in expressions. They are the simplest form of expressions and represent data directly without the need for computation.
 	//float literals 
 	
-	double a= 23.456f ;
-	System.out.println(a);//23.4599937438965
+	double a= 23.456f ; // here 23.456f is literal example , 1 Type 
+ 	System.out.println(a);//23.4599937438965
 	
-	float b = (float)23.456d ;
+	float b = (float)23.456d ; // another type of literal "23.456d"
 	System.out.println(b); //23.456
 	
 	double c = b ;
