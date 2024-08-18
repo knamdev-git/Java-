@@ -10,7 +10,11 @@ public class bufferreader_class_in_java {
     int ch = bf.read();
     System.out.println("ASCII value : "+ch);
     System.out.println("Character value : "+(char)ch);
+  
+    bf.readLine();
+    String c = bf.readLine();
 
+    System.out.println("String value : "+c);
 
   }
 
