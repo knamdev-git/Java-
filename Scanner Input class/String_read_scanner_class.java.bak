@@ -1,0 +1,26 @@
+import java.util.Scanner ; 
+
+public class Main
+{
+	public static void main(String[] args) {
+    
+    // like scanner obj 
+    String s = "My name is Kanha and I acheived 81.54 % in 12 th";
+    
+    Scanner sc = new Scanner(s);
+    
+    boolean b = sc.hasNext() ;
+    
+    while(b == true){
+        if(sc.hasNext() == false){
+            break ;
+        }
+        System.out.print(" "+sc.next());
+         
+    }
+    
+    
+    
+    
+	}
+}
