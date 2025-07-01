@@ -18,7 +18,7 @@ public class LambdaFeature {
 		ob.method1();
 		
 		//we use lamba expression for functional methods -> has only one method inside an interface
-		Iname obj = ()->{ System.out.println("This is only the method inside Iname"); };
+		Iname obj = (/* Parameter1, Parameter 2*/ )->{ System.out.println("This is only the method inside Iname"); };
 		obj.method1();
 	}
 }
